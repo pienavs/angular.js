@@ -20,6 +20,8 @@ Examples of non-assignable expressions include:
 <input ng-model="42">
 <input ng-model="'oops'">
 <input ng-model="myFunc()">
+<input ng-model="model-name">
+<input ng-model="myObj.model-name">
 ```
 
 Always make sure that the expression bound via `ngModel` directive can be assigned to.
